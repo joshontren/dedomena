@@ -7,7 +7,7 @@
     <meta name="description" content="Dedomena provides professional mine surveying services, specializing in pit and stockpile calculations using cutting-edge technology and drone solutions.">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="assets/images/logo.svg">
+    <link rel="icon" type="image/png" href="assets/images/triangle.jpg">
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -145,6 +145,14 @@
 
     <main>
         <section class="hero">
+            <!-- New video background -->
+            <div class="hero__video-container">
+                <video class="hero__video" autoplay muted loop playsinline>
+                    <source src="assets/images/video.mp4" type="video/mp4">
+                </video>
+                <div class="hero__video-overlay"></div>
+            </div>
+        
             <div class="container">
                 <div class="hero__inner">
                     <h1 class="hero__title reveal-text">
@@ -175,7 +183,7 @@
                 <div class="about__inner">
                     <div class="about__content">
                         <p class="about__text reveal-text">
-                            Dedomena is a specialized mine surveying company based in South Africa. We excel in calculating volumes for pits, stockpiles, and any mining-related terrain with exceptional precision.
+                            Dedomena is a specialized mine surveying company based in Middelburg South Africa. We excel in calculating volumes for pits, stockpiles, and any mining-related terrain with exceptional precision.
                         </p>
                         <p class="about__text reveal-text">
                             Our team of expert surveyors utilizes cutting-edge technology including top-range drones and advanced surveying equipment to deliver the most accurate data and measurements for mining operations of all sizes.
@@ -197,7 +205,7 @@
                     </div>
                     <div class="about__image reveal-element">
                         <!-- This would be replaced with an actual image -->
-                        <img src="assets/images/1.jpg">
+                        <img src="assets/images/about.jpg">
                     </div>
                 </div>
             </div>
@@ -210,6 +218,10 @@
                     <h2 class="section-header__title reveal-text">Advanced mine surveying<br>solutions</h2>
                 </div>
                 
+                <p class="services__description reveal-text">
+                    At Dedomena, we offer comprehensive surveying services tailored to the mining industry's specific needs, delivering precise measurements and valuable insights for your operations.
+                </p>
+                
                 <div class="services__grid">
                     <div class="service-card reveal-element">
                         <div class="service-card__icon">
@@ -218,9 +230,23 @@
                                 <path d="M20 16L8 9l-5 7"></path>
                             </svg>
                         </div>
-                        <h3 class="service-card__title">Pit Calculations</h3>
+                        <h3 class="service-card__title">Opencast Surveys</h3>
                         <p class="service-card__description">
-                            Precise volume and dimension measurements for mining pits and excavations. We provide detailed reports with accurate cut and fill analyses.
+                            Comprehensive assessments of open-pit mining sites evaluating geological structures, terrain conditions, and environmental impacts. Essential for pre-mining planning and ongoing operational monitoring, providing accurate spatial data for mine design, excavation planning, safety management, and regulatory compliance.
+                        </p>
+                    </div>
+                    
+                    <div class="service-card reveal-element">
+                        <div class="service-card__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="3" y1="12" x2="21" y2="12"></line>
+                                <line x1="3" y1="6" x2="21" y2="6"></line>
+                                <line x1="3" y1="18" x2="21" y2="18"></line>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Topographical Surveys</h3>
+                        <p class="service-card__description">
+                            Detailed mapping of natural and man-made features, including elevation changes, contours, vegetation, structures, and water bodies. These surveys generate precise representations of land surfaces critical for engineering design, construction planning, urban development, and environmental studies.
                         </p>
                     </div>
                     
@@ -234,7 +260,51 @@
                         </div>
                         <h3 class="service-card__title">Stockpile Surveys</h3>
                         <p class="service-card__description">
-                            Accurate stockpile volume calculations using advanced drone technology and 3D modeling to ensure precise inventory management for mining operations.
+                            Precise measurement of volume, shape, and density of material stored in stockpiles using advanced surveying methods like drone photogrammetry or LiDAR. These surveys provide highly accurate data essential for inventory management, production control, and financial auditing.
+                        </p>
+                    </div>
+                    
+                    <div class="service-card reveal-element">
+                        <div class="service-card__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 6c-2-2-4-4-7-4s-5 2-7 4s-4 5-4 8s2 6 4 8s5 4 7 4s5-2 7-4s4-5 4-8s-2-6-4-8"></path>
+                                <path d="M6 15h12"></path>
+                                <path d="M6 9h12"></path>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Road Surveys</h3>
+                        <p class="service-card__description">
+                            Collection of detailed information about existing or proposed roadways, including alignments, gradients, surface conditions, widths, and surrounding features. These surveys are crucial for designing new roads, planning maintenance, and ensuring safety standards in transportation infrastructure.
+                        </p>
+                    </div>
+                    
+                    <div class="service-card reveal-element">
+                        <div class="service-card__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"></path>
+                                <line x1="12" y1="12" x2="12" y2="21"></line>
+                                <line x1="12" y1="12" x2="4" y2="7.5"></line>
+                                <line x1="12" y1="12" x2="20" y2="7.5"></line>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Volumetric Surveys</h3>
+                        <p class="service-card__description">
+                            Calculation of material volumes such as soil, rock, or waste within defined areas. These precise measurements are vital for earthworks, stockpile management, mining operations, and construction projects, assisting in budgeting, resource planning, and ensuring project milestones are met efficiently.
+                        </p>
+                    </div>
+                    
+                    <div class="service-card reveal-element">
+                        <div class="service-card__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M2 22c1-5 5-8 9-8s8 3 9 8"></path>
+                                <path d="M11 3C8 3 4.5 6 4.5 10a5.5 5.5 0 0 0 11 0c0-2-1-4-2.5-5"></path>
+                                <path d="M17 1v6"></path>
+                                <path d="M14 4h6"></path>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Rehabilitation Surveys & Monitoring</h3>
+                        <p class="service-card__description">
+                            Assessment of land restoration progress after mining or construction activities, tracking changes in vegetation cover, soil stability, water quality, and ecosystem health over time. These surveys guide land management strategies, ensure regulatory compliance, and support sustainable development goals.
                         </p>
                     </div>
                     
@@ -248,30 +318,27 @@
                                 <circle cx="20" cy="4" r="1.5"></circle>
                                 <circle cx="4" cy="20" r="1.5"></circle>
                                 <circle cx="20" cy="20" r="1.5"></circle>
-                              </svg>
+                            </svg>
                         </div>
-                        <h3 class="service-card__title">Drone Surveying</h3>
+                        <h3 class="service-card__title">Borehole Surveys & Stakeouts</h3>
                         <p class="service-card__description">
-                            Cutting-edge aerial drone surveys that provide comprehensive site mapping and volumetric analysis with minimal disruption to mining operations.
+                            Examination of subsurface conditions via drilled holes, providing critical geological and geotechnical information. Stakeouts involve marking precise locations on the ground to guide the placement of structures or excavation based on design plans, ensuring accurate alignment and efficiency.
                         </p>
                     </div>
                     
                     <div class="service-card reveal-element">
                         <div class="service-card__icon">
                             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"></path>
-                                <line x1="12" y1="12" x2="12" y2="21"></line>
-                                <line x1="12" y1="12" x2="4" y2="7.5"></line>
-                                <line x1="12" y1="12" x2="20" y2="7.5"></line>
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
                             </svg>
                         </div>
-                        <h3 class="service-card__title">3D Modeling</h3>
+                        <h3 class="service-card__title">Exploration Surveys</h3>
                         <p class="service-card__description">
-                            Detailed 3D terrain models and digital surface models that provide comprehensive visualization of mining sites for better planning and management.
+                            Identification and assessment of natural resources potential through various methods including geophysical, geochemical, and remote sensing techniques. These surveys gather data to inform decision-making for further exploration, drilling, or preservation, determining the feasibility of future extraction or conservation efforts.
                         </p>
                     </div>
                 </div>
-            </div>
         </section>
 
         <section id="team" class="team">
@@ -326,12 +393,12 @@
                             <h4 class="team-member__name">Eben Oosthuizen</h4>
                             <p class="team-member__title">Senior Mine Surveyor</p>
                             <p class="team-member__description">
-                                Eben hou ook van gamble...gee my n description
+                                With over a decade of experience, Eben has been at the forefront of opencast surveying since 2010. As an essential member of Dedomena, his expertise and leadership have been instrumental in shaping our operations. Eben’s deep knowledge of open-pit mining environments and his commitment to precision make him a cornerstone of our fieldwork, ensuring seamless execution across all projects
                             </p>
                             <div class="team-member__expertise">
-                                <span class="expertise-item">Open-Pit Mining</span>
-                                <span class="expertise-item">Volume Calculations</span>
-                                <span class="expertise-item">12 Years Experience</span>
+                                <span class="expertise-item">Opencast Specialist</span>
+                                <span class="expertise-item">Essential Member</span>
+                                <span class="expertise-item">Surveying Operations Expert</span>
                             </div>
                         </div>
                     </div>
@@ -342,12 +409,12 @@
                             <h4 class="team-member__name">Coenraad Oosthuizen</h4>
                             <p class="team-member__title">Senior Surveyor</p>
                             <p class="team-member__description">
-                                Coenraad het n sagte hart
+                                Coenraad brings dual expertise in both opencast and underground surveying, developed over a career that began in 2011. As one of Dedomena’s essential members, he has played a pivotal role in building our company’s foundation. His adaptability and technical mastery allow him to navigate the unique challenges of diverse mining environments, delivering exceptional results with consistency.
                             </p>
                             <div class="team-member__expertise">
-                                <span class="expertise-item">Drone Technology</span>
-                                <span class="expertise-item">Aerial Mapping</span>
-                                <span class="expertise-item">8 Years Experience</span>
+                                <span class="expertise-item">Opencast & Underground Specialist</span>
+                                <span class="expertise-item">Essential Member</span>
+                                <span class="expertise-item">Versatile Surveying Expert</span>
                             </div>
                         </div>
                         <div class="team-member__image">
@@ -370,12 +437,12 @@
                             <h4 class="team-member__name">Petrus Muller</h4>
                             <p class="team-member__title">Senior Surveyor</p>
                             <p class="team-member__description">
-                                Petrus likes to gamble... gee my info
+                                With 20 years of experience, Petrus is a master surveyor whose skills have been honed across both opencast and underground mining. His vast field knowledge and dedication to precision make him an authority in the industry. Petrus’s seasoned expertise ensures that every project benefits from his meticulous approach, reinforcing Dedomena’s reputation for excellence
                             </p>
                             <div class="team-member__expertise">
-                                <span class="expertise-item">3D Terrain Modeling</span>
-                                <span class="expertise-item">Software Specialist</span>
-                                <span class="expertise-item">10 Years Experience</span>
+                                <span class="expertise-item">Master Surveyor</span>
+                                <span class="expertise-item">20 Years Experience</span>
+                                <span class="expertise-item">Opencast & Underground Expert</span>
                             </div>
                         </div>
                     </div>
@@ -386,12 +453,12 @@
                             <h4 class="team-member__name">Wynand Neethling</h4>
                             <p class="team-member__title">Senior Surveyor</p>
                             <p class="team-member__description">
-                                Wynands years of experience makes him a top preforming surveyor...Gee my nog info
+                                Wynand’s 13 years in mine surveying span both underground and opencast operations, with six years dedicated to underground work. His versatile experience allows him to approach projects with a comprehensive understanding of varied mining conditions. Wynand’s hands-on knowledge and attention to detail are invaluable assets in maintaining Dedomena’s high standards of accuracy and reliability.
                             </p>
                             <div class="team-member__expertise">
-                                <span class="expertise-item">Stockpile Specialist</span>
-                                <span class="expertise-item">Mine Management</span>
-                                <span class="expertise-item">300 Years experience</span>
+                                <span class="expertise-item">Dual-Sector Surveyor</span>
+                                <span class="expertise-item">Underground Experience</span>
+                                <span class="expertise-item">Field Operations Specialist</span>
                             </div>
                         </div>
                         <div class="team-member__image">
@@ -434,9 +501,9 @@
                             Our fleet of top-range drones equipped with LiDAR and RTK technology provides centimeter-level accuracy for surveying even the most challenging terrain.
                         </p>
                         <ul class="tech-card__features">
-                            <li>30MP Camera Resolution</li>
-                            <li>RTK GPS Precision</li>
-                            <li>45-minute Flight Time</li>
+                            <li>Aerial Mapping Precision</li>
+                            <li>High-Resolution Imaging</li>
+                            <li>Advanced Flight Technology</li>
                         </ul>
                     </div>
                     
@@ -453,9 +520,9 @@
                             We use industry-leading software to transform survey data into highly detailed 3D models and volumetric calculations with exceptional accuracy.
                         </p>
                         <ul class="tech-card__features">
-                            <li>Real-time Data Processing</li>
-                            <li>Sub-centimeter Precision</li>
-                            <li>Advanced Terrain Analysis</li>
+                            <li>Terrain Modelling Software</li>
+                            <li>Volumetric Analysis Tool</li>
+                            <li>CAD-Based Survey Processing</li>
                         </ul>
                     </div>
                     
@@ -470,12 +537,12 @@
                         </div>
                         <h3 class="tech-card__title">Total Station Systems</h3>
                         <p class="tech-card__description">
-                            Our industry-leading total station equipment allows us to capture extremely precise measurements even in the most challenging mine environments.
+                            Our Trimble total station technology delivers sub-millimeter precision and reliability, enabling accurate data capture in even the harshest mining conditions. Its advanced optics and integrated systems ensure consistent performance for both opencast and underground surveys.
                         </p>
                         <ul class="tech-card__features">
-                            <li>0.5" Angular Accuracy</li>
-                            <li>Auto-targeting Technology</li>
-                            <li>All-weather Operation</li>
+                            <li>High-Precision Measurement</li>
+                            <li>Laser Distance Accuracy</li>
+                            <li>Integrated Surveying Solutions</li>
                         </ul>
                     </div>
                     
@@ -488,12 +555,12 @@
                         </div>
                         <h3 class="tech-card__title">GPS/GNSS Systems</h3>
                         <p class="tech-card__description">
-                            Multi-constellation GNSS receivers provide millimeter-level accuracy for boundary surveys and control networks in mining operations.
+                            Trimble GNSS receivers utilize multi-constellation satellite tracking to deliver millimeter-level accuracy for boundary surveys, control networks, and high-precision positioning in mining environments. Their robust design ensures consistent performance even under challenging field conditions.
                         </p>
                         <ul class="tech-card__features">
-                            <li>Multi-frequency Tracking</li>
-                            <li>RTK Positioning</li>
-                            <li>Rugged Mining Design</li>
+                            <li>Multi-Constellation GNSS</li>
+                            <li>Millimeter-Level Positioning</li>
+                            <li>Survey-Grade Accuracy</li>
                         </ul>
                     </div>
                 </div>
@@ -514,22 +581,22 @@
                 <div class="projects-grid">
                     <div class="project-card reveal-element">
                         <div class="project-card__image">
-                            <img src="assets/images/3.jpg">
+                            <img src="assets/images/p1.jpg">
                             <div class="project-card__overlay">
                             </div>
                         </div>
                         <div class="project-card__content">
-                            <h3 class="project-card__title">Platinum Mine Expansion</h3>
-                            <p class="project-card__location">Northern Cape, South Africa</p>
+                            <h3 class="project-card__title">Coal Mine Expansion</h3>
+                            <p class="project-card__location">Mpumalanga, South Africa</p>
                             <p class="project-card__description">
-                                Comprehensive volumetric analysis for a 1,200-hectare open pit platinum mine expansion, completed 40% faster than traditional methods.
+                                Comprehensive volumetric analysis for a 1,200-hectare open pit Coal mine expansion with comprenhensive planning and detail
                             </p>
                         </div>
                     </div>
                     
                     <div class="project-card reveal-element">
                         <div class="project-card__image">
-                            <img src="assets/images/4.jpg">
+                            <img src="assets/images/p2.jpg">
                             <div class="project-card__overlay">
                             </div>
                         </div>
@@ -537,31 +604,37 @@
                             <h3 class="project-card__title">Coal Mine Stockpile Analysis</h3>
                             <p class="project-card__location">Mpumalanga, South Africa</p>
                             <p class="project-card__description">
-                                Monthly stockpile surveys for a major coal mining operation, providing critical inventory data with 99.8% accuracy.
+                                Monthly stockpile surveys for a major coal mining operation, providing critical inventory data with exceptional accuracy.
                             </p>
                         </div>
                     </div>
                     
                     <div class="project-card reveal-element">
                         <div class="project-card__image">
-                            <img src="assets/images/5.jpg">
+                            <img src="assets/images/p3.jpg">
                             <div class="project-card__overlay">
                             </div>
                         </div>
                         <div class="project-card__content">
-                            <h3 class="project-card__title">Gold Mine Rehabilitation</h3>
-                            <p class="project-card__location">Free State, South Africa</p>
+                            <h3 class="project-card__title">Mine Rehabilitation</h3>
+                            <p class="project-card__location">Mpumalanga, South Africa</p>
                             <p class="project-card__description">
-                                Detailed terrain mapping and volume calculations for an abandoned gold mine rehabilitation project covering 800 hectares.
+                                Comprehensive mine rehabilitation for an opencast mining operation, focused on restoring the land to its natural state while minimizing environmental impact.
                             </p>
                         </div>
                     </div>
                 </div>
                 
                 <div class="projects__cta reveal-element">
-                    <a href="#contact" class="btn btn--primary">Start Your Project</a>
+                    <div class="cta-container">
+                        <p class="cta-text">Ready to improve the precision and efficiency of your mining operations?</p>
+                        <div class="cta-buttons">
+                            <a href="tel:+27 (0) 13 170 8001" class="btn btn--primary">Call Us</a>
+                            <a href="mailto:office@dedomena.co.za" class="btn btn--secondary">Email Us</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
+
         </section>
 
         <section id="portfolio" class="portfolio">
@@ -580,14 +653,14 @@
                   <img src="assets/images/portfolio/project-1.jpg" alt="Aerial drone survey of open pit mine" class="gallery-img">
                   <div class="gallery-overlay">
                     <h3 class="gallery-title">Open Pit Drone Survey</h3>
-                    <p class="gallery-location">Northern Cape, South Africa</p>
+                    <p class="gallery-location">Mpumalanga, South Africa</p>
                   </div>
                 </div>
                 
                 <div class="gallery-item reveal-element">
                   <img src="assets/images/portfolio/project-2.jpg" alt="3D terrain model of mining site" class="gallery-img">
                   <div class="gallery-overlay">
-                    <h3 class="gallery-title">3D Terrain Modeling</h3>
+                    <h3 class="gallery-title">GPS/GNSS</h3>
                     <p class="gallery-location">Mpumalanga, South Africa</p>
                   </div>
                 </div>
@@ -596,23 +669,23 @@
                   <img src="assets/images/portfolio/project-3.jpg" alt="Stockpile volume calculation" class="gallery-img">
                   <div class="gallery-overlay">
                     <h3 class="gallery-title">Stockpile Volume Analysis</h3>
-                    <p class="gallery-location">Free State, South Africa</p>
+                    <p class="gallery-location">Mpumalanga, South Africa</p>
                   </div>
                 </div>
                 
                 <div class="gallery-item reveal-element">
                   <img src="assets/images/portfolio/project-4.jpg" alt="Mining site topographical mapping" class="gallery-img">
                   <div class="gallery-overlay">
-                    <h3 class="gallery-title">Topographical Mapping</h3>
-                    <p class="gallery-location">Limpopo, South Africa</p>
+                    <h3 class="gallery-title">Stakeout</h3>
+                    <p class="gallery-location">Sunny, Botswana</p>
                   </div>
                 </div>
                 
                 <div class="gallery-item reveal-element">
                   <img src="assets/images/portfolio/project-5.jpg" alt="Mine expansion survey" class="gallery-img">
                   <div class="gallery-overlay">
-                    <h3 class="gallery-title">Mine Expansion Survey</h3>
-                    <p class="gallery-location">Western Cape, South Africa</p>
+                    <h3 class="gallery-title">Mine Expansion Surveys</h3>
+                    <p class="gallery-location">Mpumalanga, South Africa</p>
                   </div>
                 </div>
                 
@@ -620,7 +693,7 @@
                   <img src="assets/images/portfolio/project-6.jpg" alt="Rehabilitation progress monitoring" class="gallery-img">
                   <div class="gallery-overlay">
                     <h3 class="gallery-title">Rehabilitation Monitoring</h3>
-                    <p class="gallery-location">Eastern Cape, South Africa</p>
+                    <p class="gallery-location">Mpumalanga, South Africa</p>
                   </div>
                 </div>
               </div>
@@ -684,81 +757,54 @@
             <div class="container">
                 <div class="section-header">
                     <span class="section-header__label reveal-element">Get In Touch</span>
-                    <h2 class="section-header__title reveal-text">Let's discuss your<br>surveying needs</h2>
+                    <h2 class="section-header__title reveal-text">Contact us for your<br>surveying needs</h2>
                 </div>
                 
-                <div class="contact__inner">
-                    <div class="contact__info reveal-element">
-                        <div class="contact-card">
-                            <div class="contact-card__icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                                </svg>
-                            </div>
-                            <div class="contact-card__content">
-                                <h3 class="contact-card__title">Call Us</h3>
-                                <p class="contact-card__text">+27 12 345 6789</p>
-                            </div>
+                <p class="contact__description reveal-text">
+                    Reach out to us directly by phone or email for inquiries about our surveying services or to discuss your project requirements.
+                </p>
+                
+                <div class="contact-cards">
+                    <div class="contact-card reveal-element">
+                        <div class="contact-card__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
                         </div>
-                        
-                        <div class="contact-card">
-                            <div class="contact-card__icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                                    <polyline points="22,6 12,13 2,6"></polyline>
-                                </svg>
-                            </div>
-                            <div class="contact-card__content">
-                                <h3 class="contact-card__title">Email Us</h3>
-                                <p class="contact-card__text">info@dedomena.co.za</p>
-                            </div>
-                        </div>
-                        
-                        <div class="contact-card">
-                            <div class="contact-card__icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                                    <circle cx="12" cy="10" r="3"></circle>
-                                </svg>
-                            </div>
-                            <div class="contact-card__content">
-                                <h3 class="contact-card__title">Visit Us</h3>
-                                <p class="contact-card__text">1 Sondags Rivier Street
-                                    Aerorand | Middelburg | Mpumalanga | 1050</p>
-                            </div>
+                        <div class="contact-card__content">
+                            <h3 class="contact-card__title">Call Us</h3>
+                            <p class="contact-card__text">+27 (0) 13 170 8001</p>
+                            <a href="tel:+27 (0) 13 170 8001" class="btn btn--primary contact-card__btn">Call Now</a>
                         </div>
                     </div>
                     
-                    <div class="contact__form reveal-element">
-                        <form class="form">
-                            <div class="form__group">
-                                <input type="text" id="name" name="name" class="form__input" placeholder="Your Name" required>
-                            </div>
-                            
-                            <div class="form__group">
-                                <input type="email" id="email" name="email" class="form__input" placeholder="Your Email" required>
-                            </div>
-                            
-                            <div class="form__group">
-                                <input type="tel" id="phone" name="phone" class="form__input" placeholder="Your Phone Number">
-                            </div>
-                            
-                            <div class="form__group">
-                                <select id="service" name="service" class="form__input">
-                                    <option value="" disabled selected>Select Service</option>
-                                    <option value="pit-calculations">Pit Calculations</option>
-                                    <option value="stockpile-surveys">Stockpile Surveys</option>
-                                    <option value="drone-surveying">Drone Surveying</option>
-                                    <option value="3d-modeling">3D Modeling</option>
-                                </select>
-                            </div>
-                            
-                            <div class="form__group">
-                                <textarea id="message" name="message" class="form__input form__textarea" placeholder="Your Message" required></textarea>
-                            </div>
-                            
-                            <button type="submit" class="btn btn--primary form__submit">Send Message</button>
-                        </form>
+                    <div class="contact-card reveal-element">
+                        <div class="contact-card__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </div>
+                        <div class="contact-card__content">
+                            <h3 class="contact-card__title">Email Us</h3>
+                            <p class="contact-card__text">office@dedomena.co.za</p>
+                            <a href="mailto:office@dedomena.co.za" class="btn btn--primary contact-card__btn">Send Email</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card reveal-element">
+                        <div class="contact-card__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                        </div>
+                        <div class="contact-card__content">
+                            <h3 class="contact-card__title">Visit Us</h3>
+                            <p class="contact-card__text">1 Sondags Rivier Street<br>
+                                Aerorand | Middelburg | Mpumalanga | 1050</p>
+                            <a href="https://maps.google.com/?q=1+Sondags+Rivier+Street+Aerorand+Middelburg+Mpumalanga+1050" target="_blank" class="btn btn--primary contact-card__btn">Get Directions</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -771,50 +817,12 @@
             <polyline points="18 15 12 9 6 15"></polyline>
         </svg>
     </a>
-    
-    <!-- Chat Widget -->
-    <div class="chat-widget">
-        <div class="chat-widget__button">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-            </svg>
-        </div>
-        <div class="chat-widget__panel">
-            <div class="chat-widget__header">
-                <h3>Chat with Us</h3>
-                <button class="chat-widget__close">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <line x1="18" y1="6" x2="6" y2="18"></line>
-                        <line x1="6" y1="6" x2="18" y2="18"></line>
-                    </svg>
-                </button>
-            </div>
-            <div class="chat-widget__messages">
-                <div class="chat-message chat-message--received">
-                    <div class="chat-message__content">
-                        <p>Hello! How can we help you with your mine surveying needs today?</p>
-                    </div>
-                    <div class="chat-message__time">Just now</div>
-                </div>
-            </div>
-            <div class="chat-widget__input">
-                <input type="text" placeholder="Type your message..." />
-                <button type="submit">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <line x1="22" y1="2" x2="11" y2="13"></line>
-                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
-                    </svg>
-                </button>
-            </div>
-        </div>
-    </div>
 
     <footer class="footer">
-        <div class="container">
             <div class="footer__inner">
                 <div class="footer__info">
                     <a href="/" class="logo">
-                        <img src="assets/images/logo.svg" alt="Dedomena Survey Services" class="logo__image footer-logo">
+                        <img src="assets/images/logo_image.jpg" alt="Dedomena Survey Services" class="logo__image footer-logo">
                     </a>
                     <p class="footer__text">Precision mine surveying with cutting-edge technology</p>
                 </div>
@@ -833,9 +841,9 @@
                     <div class="footer__group">
                         <h3 class="footer__title">Contact</h3>
                         <ul class="footer__list">
-                            <li><a href="mailto:info@dedomena.co.za">info@dedomena.co.za</a></li>
-                            <li><a href="tel:+27123456789">+27 12 345 6789</a></li>
-                            <li>Johannesburg, South Africa</li>
+                            <li><a href="mailto:office@dedomena.co.za">office@dedomena.co.za</a></li>
+                            <li><a href="tel:+27 (0) 13 170 8001">+27 (0) 13 170 8001</a></li>
+                            <li>Middelburg, South Africa</li>
                         </ul>
                     </div>
                 </div>
